@@ -17,18 +17,24 @@ canvas {
 }
 
 .blinking-text {
-    font-size: 50px;
+    font-size: 100px;
     font-weight: bold;
+	font-family: 'Beloved Script';
     color: white;
-    animation: blink 1s infinite alternate;
+    animation: blink 5s infinite alternate;
     z-index: 1;
 }
 
 @keyframes blink {
     0% { color: red; }
-    20% { color: orange; }
-    40% { color: yellow; }
-    60% { color: green; }
-    80% { color: blue; }
+    10% { color: orange; }
+    20% { color: yellow; }
+    30% { color: lime; }
+    40% { color: green; }
+    50% { color: cyan; }
+    60% { color: blue; }
+    70% { color: indigo; }
+    80% { color: violet; }
+    90% { color: pink; }
     100% { color: purple; }
 }
